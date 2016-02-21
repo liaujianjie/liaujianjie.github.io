@@ -1,6 +1,7 @@
 ---
 ---
 
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
@@ -272,6 +273,7 @@ tbody tr:nth-child(odd) th {
 
   &-title {
     font-weight: 300;
+    margin-bottom: 0;
 
     a {
       color: #333;
@@ -286,6 +288,13 @@ tbody tr:nth-child(odd) th {
       color: #ddd;
     }
 
+  }
+  
+  &-subtitle {
+    font-weight: 400;
+    margin-bottom: .75rem;
+    font-size: 1.0rem;
+    color: #999;
   }
 
   &-title--small {
@@ -325,6 +334,10 @@ tbody tr:nth-child(odd) th {
         margin-left: .25rem;
       }
     }
+    
+    .active {
+      color: #000;
+    }
   }
 
 }
@@ -339,7 +352,8 @@ tbody tr:nth-child(odd) th {
   &-title {
     margin-bottom: .25rem;
   }
-  &-date {
+  &-date,
+  &-subtitle{
     margin-bottom: 2rem;
     font-size: .75rem;
     text-transform: uppercase;
@@ -358,11 +372,25 @@ tbody tr:nth-child(odd) th {
         text-decoration: none;
       }
     }
+    .subtitle {
+      color: #333;
+    }
   }
   &-post-date {
     margin-bottom: 1rem;
     font-size: .75rem;
     text-transform: uppercase;
+  }
+  img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+}
+
+.grid {
+  &-item {
+    width: 50%;
   }
 }
 

@@ -3,12 +3,17 @@
 # # # # # # # #
 
 # Basic
-name:               "Kiko"
+name:               "Liau Jian Jie"
+subtitle:           "builder, coder & designer"
+
+# Contact
+twitter:            "jianjie_"
+email:              "hello@jianjie.co"
 
 # URL
 baseurl:            ""
 #baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title.html
+#permalink:          /:collection/:year/:month/:day/:title/
 
 # Markdown
 markdown:           rdiscount
@@ -16,16 +21,28 @@ markdown:           rdiscount
 # Navigation
 nav:
   - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+    href:           "/"
+#  - name:           "Works"
+#    href:           "/works/"
+  - name:           "Blog"
+    href:           "/blog/"
 
 # Sass
 sass:
   style:            :compressed
+  
+# Collections
+collections:
+  works:
+    output: true
+    permalink: /:collection/:title
+  blog:
+    output: true
+    permalink: /:collection/:year/:month/:day/:title/
 
 # Scopes
 defaults:
+
   -
     scope:
       path:         ""
@@ -34,7 +51,13 @@ defaults:
       layout:       "page"
   -
     scope:
-      path:         ""
-      type:         "posts"
+      path:         "_blog"
+      type:         "blog"
     values:
       layout:       "post"
+  -
+    scope:
+      path:         "_works"
+      type:         "work"
+    values:
+      layout:       "work"

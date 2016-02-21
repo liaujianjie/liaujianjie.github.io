@@ -1,0 +1,21 @@
+---
+layout: default
+title: works
+description: A catalogue of all works by Liau Jian Jie.
+---
+<div class="content list">
+{% if site.works.size == 0 %}
+  <h2>No work found</h2>
+{% else %}
+  {% for work in site.works reversed %}
+    <div class="list-item">
+      <h2 class="list-post-title">
+        <a href="{{ work.url }}">
+          <img src="{{ work.image }}" alt="{{ work.title }}">
+          {{ work.title }}{% if work.subtitle != nil %}<span class="subtitle"> — {{ work.subtitle }}</span>{% endif %}
+        </a>
+      </h2>
+    </div>
+  {% endfor %}
+{% endif %}
+</div>
