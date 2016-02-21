@@ -18,7 +18,7 @@ Fast forward to today, I am coding in Swift, Objective-C and learning other mode
 whole lot different from the past, the fundementals had always been the same: I simply turn my ideas into reality. 
 The only difference is in the execution.
 
-## A formal hello
+## A formal greeting
 So who am I and what do I do? I am an ordinary Singaporean bloke who enjoys creating delightfully thoughful products 
 wherein design and code are just but some means to achieve my visions and ideals.
 
