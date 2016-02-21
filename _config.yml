@@ -16,7 +16,9 @@ baseurl:            ""
 #permalink:          /:collection/:year/:month/:day/:title/
 
 # Markdown
-markdown:           rdiscount
+markdown:           kramdown
+kramdown:           
+  parse_block_html: true
 
 # Navigation
 nav:
@@ -39,6 +41,8 @@ collections:
   blog:
     output: true
     permalink: /:collection/:year/:month/:day/:title/
+  includes:
+    output: false
 
 # Scopes
 defaults:
@@ -61,3 +65,9 @@ defaults:
       type:         "work"
     values:
       layout:       "work"
+  -
+    scope:
+      path:         "_includes"
+      type:         "includes"
+    values:
+      layout:       "include"

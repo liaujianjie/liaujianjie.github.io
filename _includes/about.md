@@ -1,10 +1,6 @@
-<!--
 ---
-title: About
-permalink: /about/
+title: about
 ---
--->
-
 <p class="lead">Hello! I'm Jian Jie, I create delightful products through code & design.</p>
 
 I involve myself in user interface design and primarily code in Swift and Objective-C. However, I am also adept at 

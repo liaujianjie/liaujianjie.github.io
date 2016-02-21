@@ -1,4 +1,9 @@
 ---
-description: "Hello! I'm Jian Jie, I create delightful products through code & design."
+description: "Hello! I'm Jian Jie, I create delightful products through code &amp; design."
 ---
-{% markdown about.md %}
+
+{% for include_content in site.includes %}
+  {% if include_content.title == "about" %}
+    {{ include_content.content }}
+  {% endif %}
+{% endfor %}
