@@ -37,15 +37,13 @@ Create a *collection* named `include` in *_config.yml. (It could be named anythi
 2. Drop your markdown file into *_includes* and give it a title. (Lets assume our title is "lorem" for now.)
 3. Use this snippet to embed the pre-rendered HTML output.
 
-{% raw %}
 ``` liquid
-{% for include_content in site.includes %}
-  {% if include_content.title == "lorem" %}
-    {{ include_content.content }}
-  {% endif %}
-{% endfor %}
+{{ "{% for include_content in site.includes %}}}
+  {{ "{% if include_content.title == "lorem" %}}}
+    {{ "{{ include_content.content }}}}
+  {{ "{% endif %}}}
+{{ "{% endfor %}}}
 ```
-{% endraw %}
 
 ## And there we have it!
 
