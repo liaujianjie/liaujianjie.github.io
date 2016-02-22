@@ -22,4 +22,4 @@ The only difference is in the execution.
 So who am I and what do I do? I am an ordinary Singaporean bloke who enjoys creating delightfully thoughful products 
 wherein design and code are just but some means to achieve my visions and ideals.
 
-I will be using this space to share my thoughts and journey as a building products.
+I will be using this space to share my thoughts and journey building products.
