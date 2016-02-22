@@ -37,11 +37,11 @@ Create a *collection* named `include` in *_config.yml. (It could be named anythi
 3. Loop through *includes* and find the *document* for "lorem".
 
 ``` liquid
-{{ "{% for include_content in site.includes " %}}}
-{{ "  {% if include_content.title == "lorem" " %}}}
+{{ "{% for include_content in site.includes " }}%}
+{{ "  {% if include_content.title == " }}"lorem" %}
 {{ "    {{ include_content.content " }}}}
-{{ "  {% endif % "}}}
-{{ "{% endfor % "}}}
+{{ "  {% endif " }}%}
+{{ "{% endfor " }}%}
 ```
 
 ## And there we have it!
