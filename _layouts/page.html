@@ -2,6 +2,8 @@
 layout: default
 ---
 <div class="content page">
-  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.showTitle == 1 %}
+    <h1 class="page-title">{{ page.title }}</h1>
+  {% endif %}
   {{ content }}
 </div>
