@@ -1,8 +1,8 @@
 ---
 title: about
 ---
-<p class="lead">Hello! I'm Jian Jie, I create delightful products through code & design.</p>
-
+## Hello, I'm Jian Jie. I create delightfully thoughtful products through code & design.
+<br/>
 I involve myself in user interface design and primarily code in Swift and Objective-C. However, I am also adept at 
 front-end web development.
 
