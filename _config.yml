@@ -3,16 +3,20 @@
 # # # # # # # #
 
 # Basic
-name:               "Liau Jian Jie"
-subtitle:           "builder, coder & designer"
+title:              "Liau Jian Jie"
+
+# SEO
+description:        "builder, coder & designer"
+url:                "//jianjie.co"
+author:             "jianjie"
+twitter:
+  username:         "jianjie"
 
 # Contact
-twitter:            "jianjie_"
 email:              "hello@jianjie.co"
 
 # URL
-baseurl:            ""
-#baseurl:            "" #For Root Domain
+#baseurl:            "//jianjie.co"
 #permalink:          /:collection/:year/:month/:day/:title/
 
 # Markdown
@@ -69,3 +73,6 @@ defaults:
       type:         "includes"
     values:
       layout:       "include"
+
+gems:
+  - jekyll-seo-tag
