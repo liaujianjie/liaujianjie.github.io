@@ -8,12 +8,13 @@ title:              "Liau Jian Jie"
 # SEO
 description:        "builder, coder & designer"
 url:                "//jianjie.co"
-author:             "jianjie"
+author:             "jianjie_"
 twitter:
-  username:         "jianjie"
+  username:         "jianjie_"
 
 # Contact
 email:              "hello@jianjie.co"
+linkedin:           "liaujianjie"
 
 # URL
 #baseurl:            "//jianjie.co"
@@ -30,6 +31,8 @@ nav:
 #    href:           "/works/"
   - name:           "Blog"
     href:           "/blog/"
+  - name:           "Contact"
+    href:           "/contact/"
 
 # Sass
 sass:
