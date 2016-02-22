@@ -17,8 +17,6 @@ baseurl:            ""
 
 # Markdown
 markdown:           kramdown
-kramdown:           
-  parse_block_html: true
 
 # Navigation
 nav:
