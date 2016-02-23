@@ -12,6 +12,10 @@ author:             "jianjie_"
 twitter:
   username:         "jianjie_"
 
+# Google Analytics
+googleAnalytics:
+  trackingId:       "UA-53668266-3"
+
 # Contact
 email:              "hello@jianjie.co"
 linkedin:           "liaujianjie"

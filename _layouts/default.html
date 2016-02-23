@@ -13,6 +13,17 @@
   {% seo title=false %}
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  
+  <!-- google analytics -->
+  <script>
+    !function(J,I,A,N,j,i,e){J.GoogleAnalyticsObject=A;J[A]||(J[A]=function(){
+    (J[A].q=J[A].q||[]).push(arguments)});J[A].l=+new Date;i=I.createElement(N);
+    e=I.getElementsByTagName(N)[0];i.src=j;e.parentNode.insertBefore(i,e)}
+    (window,document,'ga','script','//www.google-analytics.com/analytics.js');
+
+    ga('create', '{{ site.googleAnalytics.trackingId }}', 'auto');
+    ga('send', 'pageview');
+  </script>
 </head>
 <body>
   <div class="container">
