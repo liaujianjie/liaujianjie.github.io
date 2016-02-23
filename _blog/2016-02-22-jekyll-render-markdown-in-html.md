@@ -19,7 +19,7 @@ illustrate:
 
 **Create a *collection* for all of such embeds.**
 
-Create a *collection* named `include` in *_config.yml. (It could be named anything.)
+Create a *collection* named `include` in *_config.yml*. (It could be named anything.)
 
 ``` yaml
 # collections:
