@@ -1,5 +1,7 @@
 ---
 title: contact
+tags: ["jian jie","liau jian jie","singapore ios developer","singapore swift developer","singapore ui designer",
+"singapore ux designer","singapore app developer","singapore web developer","swift","objective-c","coder","programmer"]
 ---
 ## Let's get in touch.
 <br/>

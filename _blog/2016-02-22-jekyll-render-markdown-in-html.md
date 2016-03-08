@@ -1,5 +1,6 @@
 ---
 title: "Jekyll: render markdown in HTML without plugins"
+tags: ["jekyll","markdown","no plugins"]
 ---
 
 I built this site with Jekyll. Its great because you can create blog posts using the markdown syntax and your content 
