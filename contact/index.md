@@ -9,4 +9,5 @@ I'm always keen to hear your interesting ideas and would love to be a part of it
 
 * Twitter: [@{{ site.twitter.username }}](https://twitter.com/{{ site.twitter.username }})
 * Email: [{{ site.email }}](mailto:{{ site.email }})
+* GitHub: [{{ site.github }}](https://github.com/{{ site.github }})
 * LinkedIn: [{{ site.linkedin }}](https://www.linkedin.com/in/{{ site.linkedin }})
