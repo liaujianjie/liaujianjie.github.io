@@ -83,3 +83,4 @@ defaults:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-gist
