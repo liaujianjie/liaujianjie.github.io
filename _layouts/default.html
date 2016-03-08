@@ -2,21 +2,23 @@
 <html lang="en">
 <head>
   <script>
-    // Don't force https when serving the website locally
+    // force https protocol (https://gist.github.com/konklone/9968713)
     if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
       window.location.protocol = "https";
   </script>
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>
-    {% if page.title %}
-      {{ site.title }} - {{ page.title }}
-    {% else %}
-      {{ site.title }}
-    {% endif %}
-  </title>
-  {% seo title=false %}
+  <!-- seo -->
+  <title>{{ site.title }} - {{ page.title }}</title>
+  <meta name="title" content="{{ site.title }} - {{ page.title }}">
+  <meta name="keywords" content="{% for tag in page.tags %}{{ tag }},{% endfor %}">
+  <meta property="og:title" content="{{ site.title }} - {{ page.title }}">
+  <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 50 }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@jianjie_">
+  <meta name="twitter:title" content="{{ site.title }} - {{ page.title }}">
+  <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords: 50 }}">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
   
@@ -26,7 +28,6 @@
     (J[A].q=J[A].q||[]).push(arguments)});J[A].l=+new Date;i=I.createElement(N);
     e=I.getElementsByTagName(N)[0];i.src=j;e.parentNode.insertBefore(i,e)}
     (window,document,'ga','script','//www.google-analytics.com/analytics.js');
-
     ga('create', '{{ site.googleAnalytics.trackingId }}', 'auto');
     ga('send', 'pageview');
   </script>
