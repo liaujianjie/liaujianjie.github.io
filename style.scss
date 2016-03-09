@@ -269,6 +269,23 @@ tbody tr:nth-child(odd) th {
   }
 }
 
+.content {
+  .subtitle {
+    font-weight: 300;
+    color: #333;
+  }
+}
+
+.links {
+  list-style: none;
+  
+  li {
+    display: inline;
+    margin-right: 10px;
+    text-transform: none;
+  }
+}
+
 .masthead {
 
   &-title {
@@ -361,6 +378,10 @@ tbody tr:nth-child(odd) th {
 }
 
 .list {
+  .list-item {
+    margin-bottom: 40px;
+  }
+  
   &-post-title {
     margin-bottom: .25rem;
 
@@ -372,10 +393,6 @@ tbody tr:nth-child(odd) th {
         text-decoration: none;
       }
     }
-    .subtitle {
-      font-weight: 300;
-      color: #333;
-    }
   }
   &-post-date {
     margin-bottom: 1rem;
@@ -384,7 +401,7 @@ tbody tr:nth-child(odd) th {
   }
   img {
     object-fit: cover;
-    height: 200px;
+    height: 280px;
     width: 100%;
   }
 }
@@ -392,6 +409,22 @@ tbody tr:nth-child(odd) th {
 .projects-list {
   a {
     color: #333;
+  }
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 20px;
+  
+  iframe {
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
   }
 }
 

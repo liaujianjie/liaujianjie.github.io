@@ -2,9 +2,19 @@
 layout: default
 ---
 <div class="content post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <div class="post-subtitle">
-    <span></span>
-  </div>
+  <h1 class="post-title">{{ page.title }}{% if page.subtitle != nil %}<span class="subtitle"> — {{ page.subtitle }}</span>{% endif %}</h1>
+  <span class="post-subtitle links">
+    <ul>
+      {% if page.website %}
+        <li><a href="{{ page.website }}">Website</a></li>
+      {% endif %}
+      {% if page.appstore %}
+        <li><a href="{{ page.appstore }}">App Store</a></li>
+      {% endif %}
+      {% if page.blogpost %}
+        <li><a href="{{ page.blogpost }}">Blog Post</a></li>
+      {% endif %}
+    </ul>
+  </span>
   {{ content }}
 </div>

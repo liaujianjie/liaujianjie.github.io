@@ -32,8 +32,8 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "/"
-#  - name:           "Works"
-#    href:           "/works/"
+  - name:           "Works"
+    href:           "/works/"
   - name:           "Blog"
     href:           "/blog/"
   - name:           "Contact"
