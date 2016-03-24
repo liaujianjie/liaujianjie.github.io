@@ -278,7 +278,7 @@ tbody tr:nth-child(odd) th {
 
 .links {
   list-style: none;
-  
+
   li {
     display: inline;
     margin-right: 10px;
@@ -306,7 +306,7 @@ tbody tr:nth-child(odd) th {
     }
 
   }
-  
+
   &-subtitle {
     font-weight: 400;
     margin-bottom: .75rem;
@@ -351,7 +351,7 @@ tbody tr:nth-child(odd) th {
         margin-left: .25rem;
       }
     }
-    
+
     .active {
       color: #000;
     }
@@ -381,7 +381,7 @@ tbody tr:nth-child(odd) th {
   .list-item {
     margin-bottom: 40px;
   }
-  
+
   &-post-title {
     margin-bottom: .25rem;
 
@@ -417,8 +417,8 @@ tbody tr:nth-child(odd) th {
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
-  margin-bottom: 20px;
-  
+  margin-bottom: 30px;
+
   iframe {
     position: absolute;
 	top: 0;
