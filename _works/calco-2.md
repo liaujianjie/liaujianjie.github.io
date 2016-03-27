@@ -8,6 +8,7 @@ image: "/images/calco-cover@2x.png"
 # links
 # website: "http://calco.jianjie.co"
 appstore: "https://itunes.apple.com/us/app/apple-store/id1070983114?pt=1964080&ct=jianjie.co&mt=8"
+producthunt: "https://www.producthunt.com/tech/calco-2"
 # blogpost:
 ---
 Calco is a simple scientific calculator built for amazing productivity. It was
