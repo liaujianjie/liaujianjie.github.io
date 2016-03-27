@@ -5,14 +5,20 @@ layout: default
   <h1 class="post-title">{{ page.title }}{% if page.subtitle != nil %}<span class="subtitle"> — {{ page.subtitle }}</span>{% endif %}</h1>
   <span class="post-subtitle links">
     <ul>
-      {% if page.website %}
-        <li><a href="{{ page.website }}">Website</a></li>
-      {% endif %}
       {% if page.appstore %}
-        <li><a href="{{ page.appstore }}">App Store</a></li>
+        <li class="links-appstore"><a href="{{ page.appstore }}">App Store</a></li>
+      {% endif %}
+      {% if page.playstore %}
+        <li class="links-playstore"><a href="{{ page.playstore }}">Play Store</a></li>
+      {% endif %}
+      {% if page.producthunt %}
+        <li class="links-producthunt"><a href="{{ page.producthunt }}">Product Hunt</a></li>
+      {% endif %}
+      {% if page.website %}
+        <li class="links-website"><a href="{{ page.website }}">Website</a></li>
       {% endif %}
       {% if page.blogpost %}
-        <li><a href="{{ page.blogpost }}">Blog Post</a></li>
+        <li class="links-blogpost"><a href="{{ page.blogpost }}">Blog Post</a></li>
       {% endif %}
     </ul>
   </span>

@@ -1,6 +1,11 @@
 ---
 ---
 
+$color-appstore: #2382d6;
+$color-playstore: #689f38;
+$color-producthunt: #da552f;
+$color-website: #555555;
+$color-blogpost: #555555;
 
 * {
   -webkit-box-sizing: border-box;
@@ -283,6 +288,28 @@ tbody tr:nth-child(odd) th {
     display: inline;
     margin-right: 10px;
     text-transform: none;
+    border-radius: 4px;
+    padding: 2px 8px;
+
+    a {
+      color: white;
+    }
+  }
+
+  .links-appstore {
+    background-color: $color-appstore;
+  }
+  .links-playstore {
+    background-color: $color-playstore;
+  }
+  .links-producthunt {
+    background-color: $color-producthunt;
+  }
+  .links-website {
+    background-color: $color-website;
+  }
+  .links-blogpost {
+    background-color: $color-blogpost;
   }
 }
 
