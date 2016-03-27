@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>
-    // force https protocol (https://gist.github.com/konklone/9968713)
-    if (!(window.location.host.startsWith("127.0.0.1")) && (window.location.protocol != "https:"))
-    {
-      window.stop()
-      window.location.protocol = "https";
-    }
-  </script>
-  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- seo -->
@@ -24,7 +15,7 @@
   <meta name="twitter:description" content="{{ page.content | strip_html | truncatewords: 50 }}">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
   <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
-  
+
   <!-- google analytics -->
   <script>
     !function(J,I,A,N,j,i,e){J.GoogleAnalyticsObject=A;J[A]||(J[A]=function(){
