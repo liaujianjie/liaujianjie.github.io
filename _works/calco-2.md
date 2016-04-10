@@ -14,20 +14,17 @@ producthunt: "https://www.producthunt.com/tech/calco-2"
 
 [![Download FREE on the App Store](/images/calco-promo.png)]({{ page.appstore }})
 
-Calco is a simple scientific calculator built for amazing productivity. It was
-built with the familiarity of its physical counterparts together with features
-that make good use of the capabilities of your iPhone.
+Calco is a simple scientific calculator built for the sole purpose of amazing
+productivity.
 
-It does not do any fancy (and arguably useless) stuff, but it takes the most
-frequently-used features of a basic scientific calculator and perfected its
-interaction. It solves many of the frustrations of the typical calculator app
-you see on the App Store.
+Great efforts have been taken to rework and improve frequently-used features of
+a scientific calculator and perfected its interactions. It eliminated many
+frustrations you may encounter with typical calculator apps.
 
 ### What Calco Isn't
 
-Calco isn't that shitty themed calculator that does nothing more than the
-stock calculator app. Check out this short playlist of videos that demonstrate
-its capabilities:
+Calco isn't that lousy themed calculator that does nothing more than the stock
+calculator app. See it for yourself in this short playlist of videos:
 
 <div class="video-wrapper">
 <!--  <iframe src="https://www.youtube.com/embed/KLi4XrBn_Tw" frameborder="0" allowfullscreen></iframe>-->
