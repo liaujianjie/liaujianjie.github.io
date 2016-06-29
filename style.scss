@@ -7,6 +7,16 @@ $color-producthunt: #da552f;
 $color-website: #555555;
 $color-blogpost: #555555;
 
+$color-text-highlight: #fee98d;
+
+*::selection {
+  background: $color-text-highlight;
+}
+
+header, div, nav {
+  overflow: hidden;
+}
+
 * {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
