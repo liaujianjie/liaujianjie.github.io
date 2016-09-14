@@ -38,11 +38,13 @@ nav:
     href:           "/blog/"
   - name:           "Contact"
     href:           "/contact/"
+  - name:           "Resume"
+    href:           "/resume/"
 
 # Sass
 sass:
   style:            :compressed
-  
+
 # Collections
 collections:
   works:
