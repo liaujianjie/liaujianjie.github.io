@@ -7,7 +7,7 @@ tags: ["jian jie","liau jian jie","singapore ios developer","singapore swift dev
 <br/>
 I'm always keen to hear interesting ideas and opportunities. Here are some avenues to contact me:
 
-* Facebook: [@{{ site.facebook }}](https://facebook.com/{{ site.facebook }})
+* Facebook: [{{ site.facebook }}](https://facebook.com/{{ site.facebook }})
 * Twitter: [@{{ site.twitter.username }}](https://twitter.com/{{ site.twitter.username }})
 * GitHub: [@{{ site.github }}](https://github.com/{{ site.github }})
 * LinkedIn: [{{ site.linkedin }}](https://www.linkedin.com/in/{{ site.linkedin }})
