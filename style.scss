@@ -60,7 +60,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.1;
   color: #333;
   letter-spacing: -.025rem;
@@ -326,7 +326,8 @@ tbody tr:nth-child(odd) th {
 .masthead {
 
   &-title {
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 2.2rem;
     margin-bottom: 0;
 
     a {
@@ -350,6 +351,7 @@ tbody tr:nth-child(odd) th {
     margin-bottom: .75rem;
     font-size: 1.0rem;
     color: #999;
+    display: none;
   }
 
   &-title--small {
@@ -373,7 +375,7 @@ tbody tr:nth-child(odd) th {
 
     a {
       color: #aaa;
-      font-weight: 300;
+      font-weight: 400;
       text-transform: lowercase;
       -webkit-transition: all .2s ease;
          -moz-transition: all .2s ease;
@@ -407,8 +409,15 @@ tbody tr:nth-child(odd) th {
   &-title {
     margin-bottom: .25rem;
   }
-  &-date,
-  &-subtitle{
+  &-date {
+    margin-bottom: 2rem;
+    font-size: .75rem;
+    font-weight: 400;
+    time {
+      text-transform: capitalize;
+    }
+  }
+  &-subtitle {
     margin-bottom: 2rem;
     font-size: .75rem;
     text-transform: uppercase;
@@ -435,7 +444,11 @@ tbody tr:nth-child(odd) th {
   &-post-date {
     margin-bottom: 1rem;
     font-size: .75rem;
-    text-transform: uppercase;
+    font-weight: 400;
+    
+    time {
+      text-transform: uppercase;
+    }
   }
   img {
     object-fit: cover;
