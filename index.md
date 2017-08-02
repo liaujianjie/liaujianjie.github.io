@@ -5,10 +5,9 @@ tags: ["jian jie","liau jian jie","singapore ios developer","singapore swift dev
 ---
 ## Hello, I'm Jian Jie. I create delightfully thoughtful products through code & design.
 <br/>
-My focus is in designing and building iOS apps and websites. I involve myself in user interface design and primarily code in Swift and Objective-C for iOS, but I am also adept at front-end web development.
+My focus is in building apps and webapps using modern libraries, frameworks and languages. Occasionally (and when permissible), I like to involve myself in user interface and user experience design as well.
 
-I'm currently serving national service and will not be able to commit to any full-time positions. However, I'm always
-keen to talk about all things design and tech!
+I'm currently pursuing my undergraduate degree at National University of Singapore, School of Computing.
 
 Feel free to tweet me at [@{{ site.twitter.username }}](https://twitter.com/{{ site.twitter.username }}) or drop me
 a message at [{{ site.email }}](mailto:{{ site.email }}).
